@@ -1,0 +1,8 @@
+﻿<Window x:Class="KinectTestApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="519" Width="662" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid MinWidth="640" MinHeight="480">
+		<Image Name="screen" Stretch="Fill" />
+	</Grid>
+</Window>
